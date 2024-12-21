@@ -4,26 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    
+   <!-- add Icon -->
     <link rel="icon" href="assets/icon.png" type="image/x-icon"/>
+
 </head>
 <body>
     <center>
         <h1> <strong>Sign Up</strong> </h1>
+       
         <p>Create an account or <a href="sign_in.html">Sign in</a></p>
-        <form>
+       
+        <form action="sign_in.html" method="get">
+          
+          <!-- Email Input -->
             <label for="email">Email address</label><br>
             <input type="email" id="email"  required><br><br>
-
+          
+            <!-- Name Input -->
+           
             <label for="username">Username</label><br>
-            <input type="text" id="username"  required><br><br>
-
+            <input type="text" id="username" pattern="[A-Za-z\s]+" required><br><br>
+            
+            <!-- password Input -->
+           
             <label for="password">Password</label><br>
-            <input type="password" id="password"  required><br><br>
-
+            <input type="password" id="password" pattern="[0-9]+" required><br>
+            <small>Your password must contain only numbers.</small><br><br><br><br>
+            
+            <!-- checkbox Input -->
+            
             <input type="checkbox" id="no-emails">
             <label for="no-emails">I do not want to receive emails with advertising, news, suggestions or marketing promotions</label><br><br>
-
-            <button onclick="location.href='sign_in.html';">Sign up</button>
+            
+            <!-- Submit Button -->
+             
+            <button type="submit"> Sign up</button>
         </form>
         <hr/>
         <hr/>

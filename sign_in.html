@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in</title>
+    <!-- add Icon -->
+     
     <link rel="icon" href="assets/icon2.png" type="image/x-icon"/>
 </head>
 <body>
@@ -11,24 +13,31 @@
     <h1> <strong>Welcome back</strong> </h1>
     <hr/>
     <p>Please enter your details</p>
-    <form>
+    <form action="bib.html" method="get">
+        
+        <!-- Email Input -->
+        
         <label for="email">Email address</label><br>
         <input type="email" id="email"  required><br>
         <small>Please enter a valid email address.</small><br><br>
+
+        <!-- password Input -->
 
         <label for="password">Password</label><br>
         <input type="password" id="password"  required><br>
         <small>Your password must contain only numbers.</small><br><br>
 
-        
+        <!-- checkbox Input -->
+
             <input type="checkbox" id="remember">
             <label for="remember">Remember for 30 days</label>
             <a href="#" id="forgot-password"> <strong>Forgot password</strong> </a>
         <br>
         <br>
         <hr/>
+      <!-- Submit Button -->  
 
-        <button onclick="location.href='bib.html';">Sign in</button>
+        <button type="submit">Sign in</button>
     </form>
 </center>
 </body>
