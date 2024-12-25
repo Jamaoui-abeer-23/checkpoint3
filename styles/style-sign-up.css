@@ -42,7 +42,8 @@ label {
 /* Style des champs de saisie */
 input[type="email"],
  input[type="text"], 
- input[type="password"] {
+ input[type="password"]
+  {
     width: 50%;
     padding: 10px;
     margin: 10px 0 20px 0;
