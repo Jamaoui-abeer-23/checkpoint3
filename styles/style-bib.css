@@ -1,0 +1,77 @@
+/* Couleurs */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF7F3; /* Couleur de fond */
+    color: #5A3D31; /* Couleur du texte */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Titre principal */
+  h1 {
+    color: #FFB38E; /* Couleur principale */
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    
+  }
+  
+  
+  /* Liste des éléments */
+  p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  /* Images */
+  img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  /* Style des liens dans la navigation */
+nav ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5A3D31;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+  
+  
+  /* style footer */
+  footer  {
+    text-align: center;
+    padding: 2px ;
+    background-color: #C96868;
+    color: #FFFFFF;
+    margin-top: 2px;
+    font-size: 0.9rem;
+}
+  
