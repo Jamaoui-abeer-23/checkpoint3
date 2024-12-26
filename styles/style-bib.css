@@ -1,23 +1,24 @@
-/* Couleurs */
+/* style-bib.css */
+/* style body */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFF7F3; /* Couleur de fond */
-    color: #5A3D31; /* Couleur du texte */
+    background-color: #FFF7F3; 
+    color: #5A3D31; 
     margin: 0;
     padding: 0;
   }
   
-  /* Titre principal */
+  /* style titre */
   h1 {
-    color: #FFB38E; /* Couleur principale */
-    text-align: center;
+    color: #FFB38E; 
+    text-align:center;
     margin: 20px 0;
     font-size: 2rem;
     
   }
   
   
-  /* Liste des éléments */
+  /* Liste des sous titres */
   p {
     font-size: 25px;
     margin-bottom: 30px;
@@ -34,14 +35,14 @@ body {
     font-weight: bold;
   }
   
-  /* Images */
+  /* style des images */
   img {
     display: block;
     margin: 10px auto;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   }
-  /* Style des liens dans la navigation */
+  /* Style des liens */
 nav ul {
     list-style-type: none;
     margin: 20px 0;
@@ -63,8 +64,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-  
-  
+
   /* style footer */
   footer  {
     text-align: center;
